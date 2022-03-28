@@ -4,15 +4,15 @@ public class Komplex {
 
 
     public Komplex(double re, double im) {
-
         this.a = re;
         this.b = im;
     }
 
     public Komplex add(Komplex add) {
-        add.a = a + add.a;
-        add.b = b + add.b;
-        return add;
+        Komplex result = new Komplex(0,0);
+        result.a = a + add.a;
+        result.b = b + add.b;
+        return result;
     }
 
     public Komplex multiply(Komplex b) {
