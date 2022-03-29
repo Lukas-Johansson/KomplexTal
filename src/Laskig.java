@@ -14,6 +14,9 @@ public class Laskig {
             System.out.println("add funkar!!");
         }
 
+        a = new Komplex(3.0,2.0);
+        b = new Komplex(4.0,1.0);
+
         c = a.multiply(b);
         d = new Komplex(10,11);
 
